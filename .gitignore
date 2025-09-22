@@ -39,3 +39,12 @@ luac.out
 *.x86_64
 *.hex
 
+# all files due to size of firmware
+*
+
+# Except README.md, data, edited scripts and .gitignore itself
+!README.md
+!ByteData.txt
+!ProxSpace/ProxSpace/pm3/proxmark3/client/luascripts/hf_legic_clone_workingHall.lua
+!hf_legic_clone_workingHall.lua
+!.gitignore
